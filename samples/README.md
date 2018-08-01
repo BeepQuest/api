@@ -8,5 +8,6 @@ Ejemplos disponibles:
 - [PHP con CURL](./php) @PakitoConK
 - **C#** Pendiente
 - [Python](./python3) @ninofnj
-- **Java** Pendiente
+- [Java](./java) @PakitoConK
+- [Go](./go) @ninofnj
 - [Postman](./postman) @ChavaNava
