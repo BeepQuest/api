@@ -6,7 +6,7 @@ Ejemplos de conexion
 Ejemplos disponibles:
 - [Node](./node)
 - [PHP con CURL](./php) @PakitoConK
-- **C#** Pendiente
+- [C#](./csharp) @manuel-arce
 - [Python](./python3) @ninofnj
 - [Java](./java) @PakitoConK
 - [Go](./go) @ninofnj
