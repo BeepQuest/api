@@ -14,7 +14,7 @@ BQMODTOK | Api Token de Módulo
 
 Campo | Tipo | Requerido | Descripción
 -----: | :------ | :-------: | ---------
-user | string | No <br>(Default todos) | Uno o mas emails de usuarios separados por comas
+users | string | No <br>(Default todos) | Uno o mas emails de usuarios separados por comas
 initialDate | string  <br>ISO Dates (Date-Time) | Si | Rango inicial de Búsqueda 
 finalDate | string  <br>ISO Dates (Date-Time) | No | Rango Final de Búsqueda
 limit | int | Si | Límite de registros de consulta
