@@ -1,4 +1,5 @@
-Respuestas de Módulos de Preguntas
+
+Respuestas de Módulos de Preguntas Por Id
 =======
 
 ## Parámetros
@@ -10,30 +11,27 @@ Clave | Valor
 BQAPPTOK | Api Token de Aplicación
 BQMODTOK | Api Token de Módulo
 
-### Query String
+### URL
+
+```
+/v1/question-module-answers/:questionAnswerId
+```
 
 Campo | Tipo | Requerido | Descripción
 -----: | :------ | :-------: | ---------
-users | string | No <br>(Default todos) | Uno o mas emails de usuarios separados por comas
-initialDate | string  <br>ISO Dates (Date-Time) | Si | Rango inicial de Búsqueda 
-finalDate | string  <br>ISO Dates (Date-Time) | No | Rango Final de Búsqueda
-limit | int | Si | Límite de registros de consulta
-skip | int | No <br>(Default 0) | Número de registros a saltar
+questionAnswerId | string | Si | Id de la respuesta a consultar
  
 ## Estructura de Respuesta
 
 Campo | | Nombre | Tipo | Descripción
 ----: | ----: | ----: | :----: | :----:
-total | | | int | Número de resultados de query
-list | user [Object] | email | string | 
+ | user [Object] | email | string | 
  | | | firstName | string | 
  | | | lastName | string | 
  | |  answers [Array] | [Nombre del campo i] | string o Array | Respuestas registradas para los campos configurados al motor
  | | correctAnswers | | int | En caso de ser tipo trivia
  | | result | | int | En caso de ser tipo trivia
  | | created | | string <br>(ISO Date) | Fecha de Creación
-
-
 
 
 ## Notas
