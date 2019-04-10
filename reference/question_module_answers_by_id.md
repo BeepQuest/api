@@ -25,7 +25,7 @@ questionAnswerId | string | Si | Id de la respuesta a consultar
 
 Campo | | Nombre | Tipo | Descripción
 ----: | ----: | ----: | :----: | :----:
- | user [Object] | email | string | 
+&nbsp;| user [Object] | email | string | 
  | | | firstName | string | 
  | | | lastName | string | 
  | |  answers [Array] | [Nombre del campo i] | string o Array | Respuestas registradas para los campos configurados al motor
