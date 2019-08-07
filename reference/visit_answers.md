@@ -40,6 +40,7 @@ list  | visitId                   |                      | string               
 &nbsp;| user [Object]             | email                | string                | 
 &nbsp;|                           | firstName            | string                | 
 &nbsp;|                           | lastName             | string                | 
+&nbsp;|                           | extra                | array {object}        | 
 &nbsp;| userId                    |                      | string                | Id de usuario
 &nbsp;| folio                     |                      | string                | Folio generado si esta configurado en la visita
 &nbsp;| keys                      |                      | string array          | Claves de los campos clave de esta visita
