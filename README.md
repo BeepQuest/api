@@ -12,4 +12,5 @@ Asegurate de contar con los token correspondientes para las consultas que necesi
 ## Tabla de contenido
 * [Respuesta Base](respuesta_base.md)
 * [Referencia de Api](reference/index.md)
+* [Consideraciones generales](reference/considerations.md)
 * [Ejemplos](samples/README.md)
